@@ -1,0 +1,40 @@
+.viewer-container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#viewer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button {
+    margin: 0 5px;
+}
+
+.product-image {
+    display: none;
+    width: 600px;
+    height: 600px;
+    pointer-events: none;
+    outline: none;
+
+}
+
+*:focus {
+    outline: none;
+  }
